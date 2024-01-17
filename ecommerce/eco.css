@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 84%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.menu{
+display: flex;
+}
+.menu a{
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.icon a{
+ text-decoration: none;   
+ color: #9e0000;
+}
+/*  */
+.even{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 84%;
+    margin: auto;  
+}
+.con{
+    margin-top: 150px;
+}
+.ill{
+    margin-top: -140px;
+    margin-left:20rem;
+    margin-right: 20rem;
+    width: 100px;
+    opacity: 0;
+    animation: slider 3s ease forwards;
+    
+
+}
+.S11 h1{
+    font-size:50px;
+}
+.S11 p{
+    font-size: 18px;
+}
+.btn{
+    padding: 20px 40px;
+    background-color:rgb(238, 137, 6);
+    border: none;
+    border-radius: 10px 10px;
+transform: 5s;
+color: white;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+letter-spacing: 3px;
+font-size: 15px;
+}
+
+.btn:hover{
+    border: 2px solid rgb(238, 137, 6) ;
+    background: none;
+    color: rgb(238, 137, 6);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+    font-size: 15px;
+
+}
+.S11{
+    margin-top: -25px;
+}
+@keyframes slider {
+  
+    100%{
+       /* transform:rotate(360deg); */
+       opacity: 100;
+       translate: x(0);
+    }
+}
+/* section 2 */
+.about {
+    margin-top:150px;
+}
+.about h1{
+    font-size: 50px;
+}
+#about{
+    margin-bottom:70px;
+}
+
+/* product */
+.p1{
+    width:300;
+    height: 400;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgba(165, 165, 165, 0.945);
+    border-radius: 30px 30px ;
+}
+.col{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 100px;
+}
+.ps{
+    width: 84%;
+    margin: auto; 
+}
+
+.hh1{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+}
+.p1  h1{
+    text-align: center;
+    padding-top: 15px;
+
+}
+.p1 p{
+    text-align: center;
+    font-size: 18px;
+}
+.img2{
+    margin-left: -150px;
+    margin-top: -75px;
+}
+.p1 img{
+    align-items: center;
+    width: 140px;
+    height: 100px;
+    padding-left:30px;
+    padding-right: 30px;
+}

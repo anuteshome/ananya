@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+html ,body{
+    scroll-behavior: smooth;
+    height: 100%;
+}
+img, i ,a{
+    display: block;
+    max-width: 100%;
+}
+ul li{
+    list-style: none;
+  
+}
+ul li a{
+    text-decoration: none;
+    color:rgb(36, 1, 1);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.even{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.primary-nav ul {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.primary-nav ul li{
+    padding-top: 0.75rem;
+    padding-right: 0.75rem;
+}
+.primary-nav ul li::after{
+    content: " ";
+    width: 0%;
+    height: 2px;
+    display: block;
+    background-color: chocolate;
+    transition:0.5s;
+
+
+}
+.primary-nav ul li:hover::after{
+    width:100%;
+}
+.container{
+    width: 80%;
+    margin-inline: auto;
+}
+.logo{
+    padding-top: 1rem;
+   padding: 0.6rem,0;
+}
+.showcase{
+    background: linear-gradient(64deg, #C63F19 0%,#CC5E2E 70%,#f7b733 100%);
+}
+.showcase h1{
+    font-size: 3.5rem;
+    color: aliceblue;
+}
+.showcase p{
+    font-weight: lighter;
+    color: white;
+    padding: 1.6rem 0;
+    line-height: 1.5;
+}
+.showcase img{
+    padding-left: 4rem;
+}
+button{
+    padding: 14px 40px;
+    background-color: #3f1a09;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 0.875rem;
+}
+button:hover{
+    background-color: #f3dd94;
+    color: #3f1a09;
+    cursor: pointer;
+}
+/* our product */
+.title{
+    text-align: center;
+}
+.title h1{
+    color: #3f1a09;
+    font-size: 3.4rem;
+}
+/*.wrapper{
+    width: 28.125rem;
+    height: 28.125rem;
+    border-radius: 0 40% 30% 40%;
+    overflow: hidden;
+}
+.wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.4s ease-in-out;
+}
+.wrapper img:hover{
+    transform: scale(0.5);
+}*/
+.img-wrapper{
+    width: 28.125rem;
+    height: 28.125rem;
+    border-radius: 0 40% 30% 40%;
+    overflow: hidden;
+}
+.img-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.4s ease-in-out;
+}
+.img-wrapper img:hover{
+    transform: scale(1.1);
+}
+.midel-color{
+    background-color: #f3dd94;
+  padding: 2rem 0;
+}
+.space{
+    padding: 1rem 0;
+}
+.aboutus{
+    background: linear-gradient(73deg, #C98E6F 25%,#A85219 75%);
+    color: white;
+}
+form{
+    background-color:#f3dd94 ;
+    border-radius: 30px;
+    padding: 2rem;
+    margin: 2rem;
+}
+label{
+    font-weight: 400px;
+    color:#3f1a09;
+}
+.inputs{
+    width: 25rem;
+    height: 2.5rem;
+    border: 1px solid #3f1a09 ;
+    border-radius: 14px;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+.textarea-field{
+height: 9rem;
+padding-top:0.625rem;
+}
+.contact{
+    background: linear-gradient(73deg, #C98E6F 25%,#A85219 75%);
+    border-radius:30px;
+    padding: 2rem;
+    display: grid;
+    place-content: center;
+    font-size: 15px;
+    color: white;
+    width: 25rem;
+}
+/*span{
+    padding-left: 1rem;
+}
+/* FOTTER */
+footer{
+    background-color: #3f1a09;
+    padding: 2rem;
+}
+.four-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.fotter ul li a{
+    color: white;
+    text-transform: uppercase;
+    padding-top: 1rem;
+
+}
+h3{
+    color: white;
+    display: inline;
+}
+.co{
+    color: white;
+}
+html{
+scroll-behavior:smooth;
+}
